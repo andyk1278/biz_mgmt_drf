@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="SampleApplication">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular app- Business Management Retail Application</title>
+
+        <!-- Angular setup -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+        <!-- Application setup -->
+        <script src="public/appRoutes.js"></script>
+        <script src="public/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="public/components/retail/controllers/retail.control.js"></script>
+    </head>
+    <body>
+        <!-- dynamic templates will be served in this div -->
+        <ui-view></ui-view>
+    </body>
+</html>

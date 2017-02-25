@@ -1,0 +1,7 @@
+{
+  "name": "biz-mgmt-client",
+  "description": "An Angular application",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
