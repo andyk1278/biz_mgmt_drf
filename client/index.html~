@@ -7,7 +7,6 @@
         <!-- Angular setup -->
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-				<script src="bower_components/angular-resource/angular-resource.min.js"></script>
 
         <!-- Application setup -->
         <script src="public/appRoutes.js"></script>
@@ -15,10 +14,6 @@
 
         <!-- Controllers -->
         <script src="public/components/retail/controllers/retail.control.js"></script>
-
-        <script src="public/components/retail/services/chain.service.js"></script>
-        <script src="public/components/retail/services/store.service.js"></script>
-        <script src="public/components/retail/services/employee.service.js"></script>
     </head>
     <body>
         <!-- dynamic templates will be served in this div -->
